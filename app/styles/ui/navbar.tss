@@ -1,0 +1,25 @@
+"#wrapper": {
+	top: 0,
+	left: 0,
+	width: Ti.UI.FILL,
+	height: Alloy.Globals.navBarHeight,
+	backgroundColor: 'gray'
+},
+"#sidebarBtn":{
+	left: 5,
+	width: 44, // touch target size
+	height: 44	// touch target size
+},
+"#settingsBtn":{
+	image: '/images/menu.png',
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	touchEnabled: false	
+},
+"#settingsBtn[platform=android, formfactor=tablet]":{
+	width: 30, // TODO: change with actual image size
+	height: 30,// TODO: change with actual image size
+},
+"#title":{
+	text: 'SideBar'	
+}

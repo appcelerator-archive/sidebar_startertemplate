@@ -1,0 +1,10 @@
+<Alloy>
+	<!-- iOS specific -->
+	<NavigationWindow id="sidenavgroup" backgroundColor="white" platform="ios">
+		<Window id="wrapper"/>
+	</NavigationWindow>	
+	<!-- common view for cross platform -->
+	<View id="containerView">
+		<Require id="sidebarContent" src="ui/sidebarContent" />
+	</View>
+</Alloy>

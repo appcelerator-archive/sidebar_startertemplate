@@ -1,0 +1,7 @@
+"#wrapper":{
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	backgroundColor:'#ffffff',
+	bottom:0,
+	top:0
+}

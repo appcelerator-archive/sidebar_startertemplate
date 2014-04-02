@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="win">
+		<!-- android, mobileweb specific -->
+		<Require id="sidebar" src="ui/sidebar" platform="android, mobileweb" />
+		<View id="winWrapper">
+			<Require id="navBar" src="ui/navbar" sidebar="true"/>
+			<View id="winContent">
+				<Label id="title" text="Hello World" />
+			</View>
+		</View>
+	</Window>
+</Alloy>

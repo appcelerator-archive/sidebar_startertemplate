@@ -1,0 +1,8 @@
+<Alloy>
+	<View id="wrapper">
+		<View id="sidebarBtn">						
+			<ImageView id="settingsBtn">	
+		</View>		
+			<Label id="title"/>		
+	</View>
+</Alloy>

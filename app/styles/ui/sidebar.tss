@@ -1,0 +1,15 @@
+"#wrapper": {	
+	left: 0,
+	top: 0,
+	navBarHidden: true,
+	backgroundColor :'#ffffff'	
+},
+"#containerView":
+{
+	backgroundColor: '#ffffff', 
+	top:0,	
+	left:0,
+	width:239,
+	height:Ti.UI.FILL,
+	
+}

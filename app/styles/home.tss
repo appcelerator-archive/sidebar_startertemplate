@@ -1,0 +1,22 @@
+"#win":{
+	navBarHidden: true,
+	exitOnClose: true,
+	backgroundColor : '#ffffff',
+	left:0, 	
+	width: '100%',
+	height: '100%'
+},
+"#win[platform=mobileweb]":{
+	modal: true
+},
+"#winContent":{
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,	
+	top: Alloy.Globals.navBarHeight,
+	left:0,
+	backgroundColor:'#ffffff'
+},
+"#title":{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE	
+}

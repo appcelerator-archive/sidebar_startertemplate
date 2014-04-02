@@ -1,0 +1,27 @@
+"#wrapper":{
+	layout: 'vertical',
+	backgroundcolor: '#ffffff',
+	top:0,
+	left:0
+},
+"#menu": {
+	backgroundColor: "#ffffff",
+	width: 239,
+	left: 0,	
+	height: Ti.UI.SIZE,
+},
+"#headerView":{
+	left: 0,
+	backgroundColor: 'gray',
+	width: Ti.UI.FILL,
+	height: Alloy.Globals.navBarHeight
+},
+"#header":{	
+	text: 'Home',
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	textAlign: 'left',
+	touchEnabled: false,
+	backgroundColor: 'transparent',
+	left: 10
+}

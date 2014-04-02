@@ -1,0 +1,8 @@
+<Alloy>
+	<View id="wrapper">
+		<View id="headerView" onSingletap="openHomeScreen">
+			<Label id="header"  />
+		</View>
+		<TableView id="menu" onClick="openDetailScreen"/>
+	</View>
+</Alloy>

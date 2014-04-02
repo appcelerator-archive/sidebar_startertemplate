@@ -1,0 +1,18 @@
+<Alloy>
+	<!-- iOS specific -->
+	<NavigationWindow id="navgroup" platform="ios" >
+		<Window id="rootWindow"  >			
+		</Window>
+	</NavigationWindow>
+	
+	<!-- Mobile Web specific -->
+	<Window platform="mobileweb" id="win">
+		<NavigationGroup id="navgroup"  >
+			<Window id="rootWindow">				
+			</Window>
+		</NavigationGroup>
+	</Window>
+
+	<!-- Android specific -->
+	<Window id="rootWindow" platform="android" />
+</Alloy>
